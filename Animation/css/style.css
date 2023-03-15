@@ -1,0 +1,36 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body {
+    background-color: rgb(51, 178, 216);
+    overflow: hidden;
+
+}
+
+.demo {}
+
+.sun {
+    width: 50%;
+    position: absolute;
+    top: 7%;
+    left: 0%;
+    opacity: 0.7;
+    transform: rotate(0deg);
+    animation: sun2 40s linear infinite;
+}
+
+@keyframes sun2 {
+    0% {
+        left: 0%;
+
+    }
+
+    50% {
+        left: 100%;
+
+    }
+}
